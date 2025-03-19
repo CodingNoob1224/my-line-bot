@@ -12,8 +12,8 @@ from linebot.v3.webhooks import MessageEvent, TextMessageContent
 app = Flask(__name__)
 
 # Line Bot 配置
-configuration = Configuration(access_token='你的 Channel Access Token')
-handler = WebhookHandler('你的 Channel Secret')
+configuration = Configuration(access_token='Altz4l3gumCVYc3aN1kAIpX5S8Cb4r+A/tw5ULmWRjqtuQbBM6OR543opMo+9RGRZIOPFSSacl48Xlq0IQjJLQuTzJix6Tyg3ZbAlc+6RT0vdXgiKTRYRnzkAMDTmJsbWp8cj9XIx4W/Ki8Z4jIpZAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('c8051dced141334dc1942068805a6d50')
 
 # 創建 SQLite 資料庫
 conn = sqlite3.connect("todo_list.db", check_same_thread=False)
